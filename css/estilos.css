@@ -1,0 +1,376 @@
+:root{
+  --colorBlanco: #fff;
+  --joaquin: red;
+  --text: #000;
+  --colornegro: #000;
+  --fuente: 'Kdam Thmor Pro', sans-serif;
+}
+
+label, p, h1,h2,h3, span, div{
+  font-family: var(--fuente);
+}
+
+header{
+  background-color: var(--colornegro);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.menu-lista{
+  display: flex;
+  list-style: none;
+  font-family: var(--fuente);
+  font-size: 30px;
+}
+
+.menu-lista li{
+  margin-left: 10px;
+
+}
+
+header h1 a{
+  color: var(--colorBlanco);
+}
+header h1 a:hover{
+  color: var(--colorBlanco);
+}
+
+header h1{
+  margin: 0;
+  font-family: var(--fuente);
+  font-size: 20px;
+  color: var(--colorBlanco);
+}
+
+
+.content{
+  margin:50px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.content article.mispeliculas div{
+  border:1px solid #e1e1e1;
+  margin: 10px 7px;
+  display: inline-block;
+  width: 157px;
+}
+
+.content article.mispeliculas{
+  text-align: left;
+}
+
+.content article.mispeliculas div{
+  vertical-align: top;
+}
+
+.content article.comunicacion{
+    width: 960px;
+    margin: 0 auto;
+}
+
+article.comunicacion form{
+  width: 560px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+article.comunicacion form div{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+article.comunicacion form div input, article.comunicacion form div select, article.comunicacion form div button, article.comunicacion form div textarea{
+  border: 1px solid var(--colornegro);
+  color: var(--colornegro);
+  border-radius: 6px;
+  font-family: var(--fuente);
+  padding: 7px 10px;
+  width: 100%;
+}
+
+
+
+.content article.missalas div{
+  border:1px solid #e1e1e1;
+  margin: 10px 7px;
+  display: inline-block;
+  width: 350px;
+}
+
+.content article.missalas{
+  text-align: left;
+}
+
+.content article.missalas div{
+  vertical-align: top;
+}
+.cumpleanos{
+width: 400px;
+margin: 0 auto;
+text-align: center;
+background-color: #c61010;
+}
+.cumpleanos ul{
+  list-style: none;
+  padding: 0 ;
+
+}
+
+.cumpleanos ul li a{
+  text-decoration: none;
+  color:var(--text);
+}
+
+.dis-block{
+  display: block;
+}
+
+#input_color{
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  border: 0;
+  border-radius: 100%;
+}
+
+#detalle_pelicula{
+  max-width: 1024px;
+  width:100%;
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+}
+
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+   position: absolute;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   right: 0;
+   top: 0;
+   width: 48px;
+   height: 48px;
+ }
+
+.respmenu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 2px solid #456789;
+  max-width: 200px;
+  background: #234567;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+}
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+  font-size: 48px;
+  pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+}
+
+.respmenu {
+  color: white;
+  position: relative;
+  background: #123456;
+  min-height: 48px;
+}
+
+p ~ span {
+  color: red;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+position: absolute;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+right: 20px;
+top: 0;
+width: 48px;
+height: 48px;
+}
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+right: initial;
+left: 0;
+}
+.respmenu {
+padding-top: 48px;
+min-height: initial;
+}
+
+
+
+#menuOpen, #menuClosed{
+	width:30px;
+}
+
+.active{
+	display: block;
+}
+
+.noActive{
+	display: none;
+}
+
+.menu-on{
+	display: block;
+}
+
+.menu-none{
+	display: none;
+}
+
+
+
+.productos{
+	max-width:1250px;
+	width:100%;
+	height: auto;
+	display:flex;
+	margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productos article{
+	width: 300px;
+    height: 186px;
+    border: 1px solid #c1c1c1;
+    display: flex;
+    border-radius: 6px;
+	align-content: stretch;
+    justify-content: space-between;
+	overflow: hidden;
+	margin: 0px 5px 10px;
+}
+
+.productos article > div{
+	width: 45%;
+	text-align:center;
+}
+
+.productos article .img-prod{
+	display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos article .img-prod > img{
+	width: 115px;
+}
+
+.productos article .costo{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+	background-color: #31bdc0;
+}
+
+.productos article .costo > div{
+	height:50%;
+	color: #fff;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.productos article .costo > div:last-child{
+	background-color: #f7f2ba;
+	color:#000;
+}
+
+.productos article .costo > button{
+	height:50%;
+	color: #fff;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+	background-color: #31bdc0;
+}
+
+.productos article .costo > button:last-child{
+	background-color: #f7f2ba;
+	color:#000;
+}
